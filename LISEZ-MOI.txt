@@ -1,0 +1,9 @@
+COMME CHEZ SOI — site vitrine (5 pages : Accueil, La carte, L’histoire, Salons privés, Réserver)
+
+1. Double-cliquez sur « recuperer-photos.command » : il télécharge les vraies photos (site officiel + Guide Michelin) dans images/.
+   (Si macOS bloque : clic droit > Ouvrir. Ou dans le Terminal : bash recuperer-photos.command)
+2. Ouvrez index.html.
+3. Formulaire événements : dans salons.html, remplacez VOTRE_CLE_WEB3FORMS par la clé Web3Forms.
+4. Réservation en ligne : le bouton renvoie vers leur page de réservation actuelle (Tablefever).
+   Si le site remplace l’ancien, il faudra intégrer leur widget Tablefever dans reserver.html.
+5. Les menus (5/6/7 services) sont dans assets/data.js et la carte dans _build/gen.py.
